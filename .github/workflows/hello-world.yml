@@ -1,10 +1,8 @@
   name: hello-world
-  on:
-    - push
-    - pull_request
+  on: push
   jobs:
     build:
       runs-on: ubuntu-latest
       steps:
-        - name: make-say-hello
-          run: make say-hello
+        - run: echo "🎉 Pizdec"
+        - run: make say-hello
