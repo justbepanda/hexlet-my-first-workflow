@@ -1,2 +1,2 @@
 say-hello:
-	$(info "Hello, World!")
+	Hello, World!
