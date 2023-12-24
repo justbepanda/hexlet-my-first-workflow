@@ -6,4 +6,5 @@
     build:
       runs-on: ubuntu-latest
       steps:
-        - run: make say-hello
+        - name: print-hello
+          run: make say-hello
